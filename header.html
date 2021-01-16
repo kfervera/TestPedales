@@ -49,7 +49,7 @@
 <script>
     $(function () {
         var load = function () {
-            if (!window.location.hash || !window.location.hash.includes("#en")) {
+            if (!window.location.hash || !window.location.hash.includes("!#en")) {
                 $(".lang-es").show();
                 $(".lang-en").hide();
             } else {
@@ -62,18 +62,18 @@
             $(".lang-en").show();
             $(".lang-es").hide();
             $('.menu-item').each(function () {
-                this.href = this.href + "#en";
+                this.href = this.href + "/#en";
             });
-            location.href = location.href + "#en";
+            location.href = location.href + "/#en";
         });
 
         $('body').find("#btn-es").on("click", function () {
             $(".lang-es").show();
             $(".lang-en").hide();
             $('.menu-item').each(function () {
-                this.href = this.href.replace("#en", "");
+                this.href = this.href.replace("/#en", "");
             });
-            location.href = location.href.replace("#en", "");
+            location.href = location.href.replace("/#en", "");
         });
 
         load();
