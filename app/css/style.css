@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+h1{
+    color: red;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+h2{
+    color: red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* HEADER */
+nav{
+    background: #121421 !important;
+}
+nav .navbar-nav{
+    /* margin-left: 110px; */
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+nav .nav-items-container{
+    margin-left: 30rem;
+}
+nav li a, nav svg{
+    color: #fff;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
+/* RESPONSIVE */
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    nav .nav-items-container{
+        margin-left: 20rem;
+    }
+ }
+
+ /* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    nav .nav-items-container{
+        margin-left: 7rem;
+    }
+ }
+
+ /* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    nav .nav-items-container{
+        margin-left: 0;
+    }
+    nav .navbar-nav li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+}
+
+ /* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    position: absolute;
+    width: 100%;
+    background: #121421;
+    color: #fff;
+    padding: 10px 90px;
+    z-index: 1000;
+    padding: 15px;
+    text-align: center;
+}
+.media-items{
+    display: inline-flex;
+}
+footer ul{
+    position: relative;
+    display: flex;
+}
+footer ul li{
+    margin-right: 10px;
+    position: relative;
+    list-style: none;
+    font-size: 2rem;
+    display: inline;
+}
+.social-media svg{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.social-media a{
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE */
+/* @media(max-width: 1024px){
+    header,
+    header.sticky{
+        z-index: 1000;
+        
+    }
+    .menu{
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 99999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .menu.active{
+        left: 0;
+    }
+    header ul li a{
+        font-size: 25px;
+        margin: 15px;
+    }
+    header.sticky ul li a{
+        color: #121421;
+        font-size: 25px;
+        margin: 15px;
+    }
+    header.sticky svg{
+        color: #fff;
+    }
+    .toggle{
+        width: 40px;
+        height: 40px;
+        color: #121421;
+        cursor: pointer;
+    }
+    .toggle svg{
+        color: #121421;
+        font-size: 1.75em;
+    }
+    
+    section{
+        padding: .75rem .5rem;
+        width: 100%;
+    }
+
+    .view-div{
+        width: 64rem;
+    }
+
+} */
+
+/* @media(max-width: 990px){
+    nav .navbar-collapse{
+        margin-left: 0px;
+    }
+    nav .navbar-nav{
+        background: #fff !important;
+    }
+    nav .navbar-nav li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    nav .navbar-nav li a{
+        color: black !important;
+    }
+} */
